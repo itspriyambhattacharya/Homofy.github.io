@@ -48,11 +48,21 @@
 
 /* Flexbox and Grid Related Classes */
 
-/* Display Utilities */
+/* Position Utilities */
 
 .relative{
     position: relative;
 }
+
+.fixed{
+    position: fixed;
+}
+
+.absolute{
+    position: absolute;
+}
+
+/* Display Utilities */
 
 .d-iblock{
     display: inline-block;
