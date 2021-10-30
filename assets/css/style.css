@@ -351,4 +351,8 @@ header{
     gap: 20px;
 }
 
+.rm-btn-updated{
+    padding: 7px 46px 8px 47px !important;
+}
+
 /* News Section End */
