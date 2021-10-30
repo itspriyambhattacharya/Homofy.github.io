@@ -1,0 +1,77 @@
+.wrapper{
+    width: 1110px;
+    margin:  0 auto;
+}
+
+.w-100{
+    width: 100%;
+}
+.w-auto{
+    width: auto;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+/* Flexbox and Grid Related Classes */
+
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
+.gap-30{
+    gap: 30px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.d-grid{
+    display: grid;
+}
+.place-center{
+    place-items: center;
+}
+
+/* Flexbox and Grid Related Classes */
+
+/* Display Utilities */
+
+.relative{
+    position: relative;
+}
+
+.d-iblock{
+    display: inline-block;
+}
+
+/* Border Classes Start */
+
+.border-primary{
+    border: 2px solid blue;
+}
+
+.border-dark{
+    border: 2px solid black;
+}
+
+/* Border Classes End */
+
+/* img tag start */
+img{
+    display: block;
+}
+/* img tag end */
