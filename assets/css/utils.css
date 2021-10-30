@@ -68,6 +68,14 @@
     display: inline-block;
 }
 
+.d-block{
+    display: block;
+}
+
+.d-none{
+    display: none;
+}
+
 /* Border Classes Start */
 
 .border-primary{
