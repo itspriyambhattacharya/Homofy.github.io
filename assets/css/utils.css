@@ -74,4 +74,9 @@
 img{
     display: block;
 }
+
+.img-resp{
+    width: 100%;
+    height: auto;
+}
 /* img tag end */
