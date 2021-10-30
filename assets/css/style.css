@@ -320,3 +320,12 @@ header{
 }
 
 /* Upcoming Project Section End */
+
+/* News Section Start */
+
+.news-body{
+    padding: 70px 20px;
+    background-color: var(--white);
+}
+
+/* News Section End */
