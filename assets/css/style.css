@@ -108,6 +108,10 @@
     padding-bottom: 30px;
 }
 
+.pt-30{
+    padding-top: 30px;
+}
+
 /* Utility Classes Start */
 
 header{
@@ -360,3 +364,30 @@ header{
 }
 
 /* News Section End */
+
+/* Contact Section Starts */
+
+.contact-text{
+    padding: 0px 30px;
+}
+
+.contact-wrap{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 30px;
+}
+
+.text-contact{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: var(--logo-color);
+}
+
+.font-black{
+    font-weight: 900;
+}
+
+/* Contact Section Ends */
