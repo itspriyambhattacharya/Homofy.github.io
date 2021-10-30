@@ -333,4 +333,8 @@ header{
     background-color: var(--white);
 }
 
+.border-top-1{
+    border-top: 1px solid var(--logo-color);
+}
+
 /* News Section End */
