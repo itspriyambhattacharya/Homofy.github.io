@@ -1,4 +1,7 @@
 console.log("Test");
+
+// Dropdown Menu
+
 let propDropLink = document.getElementById('prop-drop-link');
 console.log(propDropLink);
 let propDropMenu = document.querySelector('.nav-ul-dropdown');
@@ -11,6 +14,8 @@ propDropMenu.addEventListener('click', function () {
     propDropMenu.classList.toggle('d-none')
 })
 
+// Making Title of the Page Dynamic
+
 let navLinks = document.getElementsByClassName('nav-links');
 let nav_a = Array.from(navLinks);
 console.log(nav_a)
@@ -21,3 +26,28 @@ for (let i = 0; i < nav_a.length; i++) {
         document.title = `Homofy - ${element.innerHTML}`;
     })
 }
+
+// Contact Form Textarea
+
+let desc_ta = document.getElementById('desc')
+console.log(desc_ta);
+
+let desc_label = document.getElementById("desc-label");
+console.log(desc_label);
+
+let desc_ta_value = "";
+
+desc_ta.addEventListener('focus', function (e) {
+    desc_ta_value = desc_ta.value;
+    console.log(desc_ta_value);
+})
+
+desc_ta.addEventListener('blur', function (e) {
+    desc_ta_value = desc_ta.value;
+    console.log(desc_ta_value);
+    desc_label.classList.remove("textarea-js-class")
+
+    if(desc_ta_value != ""){
+        desc_label.classList.toggle("textarea-js-class")
+    }
+})
