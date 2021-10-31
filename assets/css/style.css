@@ -509,5 +509,16 @@ textarea:focus ~ .line{
 .main-footer{
     background-color: var(--logo-color);
 }
+.footer-flex-child{
+    flex:  1 1 auto;
+}
+.foot-loc-head-custom{
+    color: var(--white);
+}
+
+.footer-text-custom{
+    color: var(--white);
+    text-align: left;
+}
 
 /* Footer Ends */
