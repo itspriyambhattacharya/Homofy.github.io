@@ -86,6 +86,10 @@
     border: 2px solid black;
 }
 
+.border-none{
+    border: none;
+}
+
 /* Border Classes End */
 
 /* img tag start */
