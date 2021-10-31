@@ -412,4 +412,50 @@ header{
     padding-bottom: 40px;
 }
 
+.tt-top-40{
+    top: 40px;
+}
+
+label{
+    top: 0px;
+    left: 0px;
+    transition: 0.5s;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+input , textarea{
+    padding: 4px 3px;
+    border-bottom: 1px solid var(--logo-color) !important;
+    background-color: transparent;
+}
+
+input:focus , textarea:focus{
+    outline: none;
+}
+
+input:focus ~ label , input:valid ~label{
+    transition: 0.5s;
+    top: -30px;
+    color: var(--logo-color);
+}
+
+textarea:focus ~ label{
+    transition: 0.5s;
+    transition: 0.5s;
+    top: -30px;
+    color: var(--logo-color);  
+}
+
+.textarea-js-class{
+    transition: 0.5s;
+    transition: 0.5s;
+    top: -30px;
+    color: var(--logo-color);
+}
+
 /* Contact Section Ends */
