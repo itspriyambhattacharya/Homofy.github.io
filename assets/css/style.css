@@ -502,3 +502,12 @@ textarea:focus ~ .line{
 }
 
 /* Contact Section Ends */
+
+
+/* Footer Starts */
+
+.main-footer{
+    background-color: var(--logo-color);
+}
+
+/* Footer Ends */
