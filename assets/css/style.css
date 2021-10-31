@@ -421,7 +421,7 @@ header{
 }
 
 .tt-top-40{
-    top: 40px;
+    top: 33px;
 }
 
 label{
@@ -443,6 +443,7 @@ input , textarea{
 }
 textarea{
     resize: none;
+    height: 60px;
 }
 input:focus , textarea:focus{
     outline: none;
@@ -491,7 +492,7 @@ input:focus ~ .line{
     transform: scale(1);
 }
 .ta-line{
-    top: 82px;
+    top: 78px;
 }
 textarea:focus ~ .line{
     transition: 0.5s;
