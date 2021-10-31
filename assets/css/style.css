@@ -313,9 +313,6 @@ header{
 
 /* Upcoming Project Section Start */
 
-.wrapper{
-    flex: 1 1 auto;
-}
 
 .up-text-area{
     background: var(--white);
@@ -506,6 +503,10 @@ textarea:focus ~ .line{
 
 /* Footer Starts */
 
+.text-white{
+    color: var(--white);
+}
+
 .main-footer{
     background-color: var(--logo-color);
 }
@@ -520,5 +521,35 @@ textarea:focus ~ .line{
     color: var(--white);
     text-align: left;
 }
+
+
+.foot-imp-links{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
+
+.reach-us-text{
+    width: 195px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+.g-20{
+    gap: 20px;
+}
+
+.py-40{
+    padding: 40px 0px;
+}
+
+.secondary-foot{
+    background-color: var(--bgc);
+}
+
 
 /* Footer Ends */
