@@ -564,4 +564,14 @@ textarea:focus ~ .line{
     cursor: pointer;
 }
 
+.navbar-slide-left{
+    transition: 0.5s ease-in-out;
+    transform: translateX(0%) !important;
+}
+
+.navbar-slide-right{
+    transition: 0.5s ease-in-out;
+    transform: translateX(100%) !important;
+}
+
 /* Responsive Ends */
