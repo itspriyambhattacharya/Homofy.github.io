@@ -554,3 +554,14 @@ textarea:focus ~ .line{
 
 
 /* Footer Ends */
+
+
+/* Responsive Starts */
+
+.resp-menu-icon-cestom{
+    font-size: 31px;
+    color: var(--logo-color);
+    cursor: pointer;
+}
+
+/* Responsive Ends */
